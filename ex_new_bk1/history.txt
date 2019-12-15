@@ -1,0 +1,1000 @@
+ 1019  vim driver1.c 
+ 1020  rm .driver1.c.swp 
+ 1021  vim driver1.c 
+ 1022  make 
+ 1023  make -C ~/Documents/kernel_src/linux-source-4.18.0/ M=`pwd` modules
+ 1024  vim driver1.c 
+ 1025  make -C ~/Documents/kernel_src/linux-source-4.18.0/ M=`pwd` modules
+ 1026  sudo insmod driver1.ko 
+ 1027  dmesg
+ 1028  sudo rmmod driver1.ko 
+ 1029  sudo insmod driver1.ko 
+ 1030  dmesg
+ 1031  man mknod
+ 1032  cat /proc/devices
+ 1033  man mknod
+ 1034  vim driver1.c 
+ 1035  make -C ~/Documents/kernel_src/linux-source-4.18.0/ M=`pwd` modules
+ 1036  sudo rmmod driver1.ko 
+ 1037  sudo insmod driver1.ko 
+ 1038  cat /proc/devices 
+ 1039  dmesg
+ 1040  vim driver1.c 
+ 1041  sudo rmmod driver1.ko 
+ 1042  make -C ~/Documents/kernel_src/linux-source-4.18.0/ M=`pwd` modules
+ 1043  vim driver1.c 
+ 1044  make -C ~/Documents/kernel_src/linux-source-4.18.0/ M=`pwd` modules
+ 1045  sudo insmod driver1.ko 
+ 1046  cat /proc/devices 
+ 1047  sudo mknod /dev/my_dev c 220 0
+ 1048  ls /dev/my_dev
+ 1049  ls /dev/my_dev -l
+ 1050  dmesg
+ 1051   /dev/my_dev
+ 1052  ls 
+ 1053  ls test/
+ 1054  cat /dev/my_dev
+ 1055  dmesg
+ 1056  cat /dev/my_dev
+ 1057  vim driver1.c 
+ 1058  make -C ~/Documents/kernel_src/linux-source-4.18.0/ M=`pwd` modules
+ 1059  vim driver1.c 
+ 1060  make -C ~/Documents/kernel_src/linux-source-4.18.0/ M=`pwd` modules
+ 1061  sudo rmmod my_driver
+ 1062  sudo rmmod driver1 
+ 1063  dmesg
+ 1064  sudo insmod driver1.ko 
+ 1065  dmesg
+ 1066  cat /proc/devices
+ 1067  ls /dev/my_dev 
+ 1068  ls /dev/my_dev -l
+ 1069  cat /dev/my_dev 
+ 1070  dmesg
+ 1071  cat > /dev/my_dev
+ 1072  sudo cat > /dev/my_dev
+ 1073  ls /dev/my_dev -l
+ 1074  sudo su
+ 1075  vim driver1.c 
+ 1076  history
+ 1077  vim driver1.c 
+ 1078  history | less
+ 1079  history
+ 1080  vim driver1.c 
+ 1081  cat /proc/devices 
+ 1082  sudo pm-powersave true
+ 1083  find . -name fs.h
+ 1084  find . -name shed.h
+ 1085  find . -name sched.h
+ 1086  vim ./include/linux/sched.h
+ 1087  cscope -d
+ 1088  cscope -R
+ 1089  ctags -R *
+ 1090  ls /dev
+ 1091  ls /dev -l
+ 1092  sudo pm-powersave true
+ 1093  sudo powertop
+ 1094  sudo ifconfig enp3so down
+ 1095  ifconfig
+ 1096  sudo ifconfig enp3s0 down
+ 1097  sudo powertop
+ 1098  dmesg
+ 1099  df -h
+ 1100  sudo reboot
+ 1101  ls
+ 1102  cd Documents/LDD/ex_new/
+ 1103  ls
+ 1104  vim driver1.ko 
+ 1105  vim driver1.c
+ 1106  vim ../ex1/my_driver.c 
+ 1107  vim driver1.c 
+ 1108  make -C /usr/src/linux-headers-4.18.0-25-generic/ M=`pwd` modules
+ 1109  vim driver1.c 
+ 1110  make -C /usr/src/linux-headers-4.18.0-25-generic/ M=`pwd` modules
+ 1111  vim driver1.c 
+ 1112  make -C /usr/src/linux-headers-4.18.0-25-generic/ M=`pwd` modules
+ 1113  vim driver1.c 
+ 1114  make -C /usr/src/linux-headers-4.18.0-25-generic/ M=`pwd` modules
+ 1115  sudo rmmod driver1 
+ 1116  sudo insmod driver1.ko
+ 1117  dmesg
+ 1118  cat /dev/my_dev 
+ 1119  dmesg | tail
+ 1120  ls
+ 1121  cd test/
+ 1122  ls
+ 1123  vim test.c 
+ 1124  gcc test.c 
+ 1125  gcc test.c -o test
+ 1126  cd ..
+ 1127  ls
+ 1128  cd -
+ 1129  ls
+ 1130  ./test /dev/my_dev 
+ 1131  dmesg
+ 1132  cd ..
+ 1133  cd test/
+ 1134  vim test.c 
+ 1135  gcc test.c -o test
+ 1136  ./test /dev/my_dev 
+ 1137  dmesg
+ 1138  cd ..
+ 1139  vim test.c 
+ 1140  vim driver1.c 
+ 1141  make -C /usr/src/linux-headers-4.18.0-25-generic/ M=`pwd` modules
+ 1142  vim driver1.c 
+ 1143  make -C /usr/src/linux-headers-4.18.0-25-generic/ M=`pwd` modules
+ 1144  vim driver1.c 
+ 1145  make -C /usr/src/linux-headers-4.18.0-25-generic/ M=`pwd` modules
+ 1146  sudo rmmod driver1 
+ 1147  dmesg
+ 1148  sudo insmod driver1.ko
+ 1149  dmesg
+ 1150  cd test/
+ 1151  ls
+ 1152  ./test /dev/my_dev
+ 1153  dmesg
+ 1154  cd ..
+ 1155  vim driver1.c 
+ 1156  make -C /usr/src/linux-headers-4.18.0-25-generic/ M=`pwd` modules
+ 1157  sudo rmmod driver1 
+ 1158  sudo insmod driver1.ko
+ 1159  cd test/
+ 1160  ./test /dev/my_dev 
+ 1161  ls
+ 1162  vim test.c
+ 1163  cd ..
+ 1164  vim driver1.c 
+ 1165  vim test/test.c
+ 1166  poweroff
+ 1167  cd Documents/kernel_src/linux-source-4.18.0/
+ 1168  cscope -d
+ 1169  cscope -R
+ 1170  cd drivers/hwmon/
+ 1171  ls
+ 1172  sudo echo 70 > /sys/module/coretemp/drivers/platform\:coretemp/coretemp.0/hwmon/hwmon1/temp2_max 
+ 1173  ls
+ 1174  cd ..
+ 1175  cscope -R
+ 1176  sudo pm-powersave true
+ 1177  sudo ifconfig enp3s0 down
+ 1178  sudo powertop
+ 1179  cat /proc/devices
+ 1180  sudo insmod coretemp
+ 1181  sudo modprobe coretemp
+ 1182  dmesg
+ 1183  sudo modprobe coretemp
+ 1184  dmesg
+ 1185  find /lib/modules/5.0.0-27-generic/ -name coretemp.ko
+ 1186  ls /dev
+ 1187  man dd
+ 1188  sudo dd if=./kubuntu-18.04.1-desktop-amd64.iso of=/dev/sdb1 bs=5M
+ 1189  sync
+ 1190  ls
+ 1191  cd Downloads/
+ 1192  ls
+ 1193  sudo dd if=ubuntu-18.04.1-desktop-amd64.iso of=/dev/sdb bs=10M status=progress
+ 1194  sudo sync
+ 1195  man syscalls
+ 1196  cat /usr/include/asm/unistd.h | less
+ 1197  cat /usr/include/unistd.h 
+ 1198  cat /usr/include/unistd.h |less
+ 1199  sudo powertop
+ 1200  sudo pm-powersave true
+ 1201  sudo powertop
+ 1202  sudo pm-powersave true
+ 1203  sudo ifconfig enp3s0 down
+ 1204  sudo powertop 
+ 1205  ls
+ 1206  cd ../Documents/
+ 1207  ls
+ 1208  man man
+ 1209  man ls
+ 1210  man mkdir
+ 1211  info mkdir
+ 1212  man cd
+ 1213  man pwd
+ 1214  man ls
+ 1215  ls
+ 1216  ls -l
+ 1217  man ls
+ 1218  ls
+ 1219  cd sample/
+ 1220  mkdir abc
+ 1221  ls 
+ 1222  cd abc/
+ 1223  ls 
+ 1224  mkdir newdir
+ 1225  ls
+ 1226  mkdir newdir1 newdir2 newdir3
+ 1227  ls
+ 1228  mkdir newdir4/newdir5/newdir6
+ 1229  ls
+ 1230  man mkdir
+ 1231  mkdir newdir4/newdir5/newdir6
+ 1232  mkdir -p newdir4/newdir5/newdir6
+ 1233  ls
+ 1234  cd newdir4
+ 1235  ls
+ 1236  cd newdir5/
+ 1237  ls
+ 1238  cd ../
+ 1239  ls
+ 1240  tree
+ 1241  sudo apt-get install tree
+ 1242  tree
+ 1243  cd ..
+ 1244  tree
+ 1245  mkdir abc/newdir4/newdir5/newdir6/vicky
+ 1246  tree
+ 1247  cd
+ 1248  cd /
+ 1249  ls
+ 1250  pwd
+ 1251  cd /home/goldeneagle/Documents/
+ 1252  pwd
+ 1253  cd abc
+ 1254  cd sample/
+ 1255  cd ..
+ 1256  cd sample
+ 1257  cd 
+ 1258  ls
+ 1259  cd Documents/
+ 1260  ls
+ 1261  cd abc
+ 1262  tree
+ 1263  cd sample/
+ 1264  ls
+ 1265  cd abc
+ 1266  cd ../../
+ 1267  pwd
+ 1268  cd abc
+ 1269  cd /boot
+ 1270  ls
+ 1271  cd
+ 1272  pwd
+ 1273  cd Documents
+ 1274  pwd
+ 1275  cd  /boot
+ 1276  cd Documents
+ 1277  ls
+ 1278  cd ~
+ 1279  pwd
+ 1280  cd Documents/sample/abc/
+ 1281  pwd
+ 1282  cd ..
+ 1283  pwd
+ 1284  cd ..
+ 1285  pwd
+ 1286  cd ..
+ 1287  pwd
+ 1288  cd -
+ 1289  cd /boot/grub/
+ 1290  cd -
+ 1291  pwd
+ 1292  cd ../../
+ 1293  pwd
+ 1294  cd ../../../../
+ 1295  cd 
+ 1296  pwd
+ 1297  cd/boot
+ 1298  cd /boot
+ 1299  cd
+ 1300  pwd
+ 1301  cd ./././
+ 1302  pwd
+ 1303  cd /bin
+ 1304  pwd
+ 1305  cd ~/Documents/
+ 1306  pwd
+ 1307  cd ../
+ 1308  ls
+ 1309  cd Documents/
+ 1310  cd ..
+ 1311  cd Documents/
+ 1312  pwd
+ 1313  cd ..
+ 1314  cd Pictures/
+ 1315  cd ../Documents/
+ 1316  pwd
+ 1317  cd ../Pictures/
+ 1318  cd ../Documents/sample/abc/
+ 1319  pwd
+ 1320  sh
+ 1321  ls -l
+ 1322  ls /bin
+ 1323  ls /bin -l
+ 1324  cd
+ 1325  ls -l
+ 1326  ls -lh
+ 1327  man ls
+ 1328  ls -l
+ 1329  ls -lh
+ 1330  ls -l
+ 1331  ls
+ 1332  ls -a
+ 1333  ls -al
+ 1334  ls -alh
+ 1335  ls Documents
+ 1336  ls Documents/Books/
+ 1337  ls Documents/python/
+ 1338  ls ..
+ 1339  ls .
+ 1340  ls .. -l
+ 1341  ls .. -la
+ 1342  ls .. -lah
+ 1343  ls ~
+ 1344  ls ~/Documents/
+ 1345  ls ~/Documents/ -l
+ 1346  ls ~/Documents/ -la
+ 1347  cd Documents/sample/
+ 1348  ls
+ 1349  cd abc/
+ 1350  tree
+ 1351  touch file1
+ 1352  tree
+ 1353  ls -l
+ 1354  touch newdir
+ 1355  ls -l
+ 1356  touch file2
+ 1357  ls -l
+ 1358  tree
+ 1359  cp file1 newdir/
+ 1360  tree
+ 1361  cp newdir/file1 newdir4/newdir5/newdir6
+ 1362  tree
+ 1363  cp file2 newdir4/newdir5/newdir6/vicky/
+ 1364  tree
+ 1365  ls
+ 1366  ls ../
+ 1367  cp ../main.c .
+ 1368  ls
+ 1369  tree
+ 1370  history
+ 1371  pwd
+ 1372  cd ..
+ 1373  ..
+ 1374  cd ../
+ 1375  cd ..
+ 1376  cd..
+ 1377  cd ..
+ 1378  pwd
+ 1379  ~
+ 1380  cd ~
+ 1381  pwd
+ 1382  tree
+ 1383  clear
+ 1384  pwd
+ 1385  ls
+ 1386  mkdir vickynew
+ 1387  ls
+ 1388  cd vickynew/
+ 1389  mkdir starting1
+ 1390  ls
+ 1391  pwd
+ 1392  cd ../
+ 1393  ls
+ 1394  cd vickynew/
+ 1395  ls
+ 1396  tree
+ 1397  cd ..
+ 1398  pwd
+ 1399  cd vickynew/
+ 1400  ls
+ 1401  cd starting1/
+ 1402  ls
+ 1403  cd 
+ 1404  pwd
+ 1405  ls
+ 1406  cd vickynew/
+ 1407  tree
+ 1408  mkrir starting1/good1
+ 1409  mkdir starting1/book1
+ 1410  tree
+ 1411  cd ~
+ 1412  pwd
+ 1413  cd vickynew/
+ 1414  -a
+ 1415  cd -a
+ 1416  cd -ah
+ 1417  info
+ 1418  clear
+ 1419  ls
+ 1420  tree
+ 1421  cd -
+ 1422  cd .
+ 1423  cd vickynew/
+ 1424  ls
+ 1425  mkdir starting1/book1/book2
+ 1426  mkdir starting1/book1/book2/book3
+ 1427  mkdir starting1/book1/book2/book3/book4
+ 1428  mkdir starting1/book1/book2/book3/book4/book 5
+ 1429  tree
+ 1430  mkdir starting1/book1/model1
+ 1431  rmdir 5/
+ 1432  tree
+ 1433  mkdir starting1/book1/book2/book3/book4/book/book5
+ 1434  rmdir starting1/book1/book2/book3/book4/book
+ 1435  clear
+ 1436  history
+ 1437  clear
+ 1438  cd ..
+ 1439  pwd
+ 1440  cd
+ 1441  ls
+ 1442  cd vickynew/
+ 1443  ls
+ 1444  tree
+ 1445  ls -l
+ 1446  ls -lh
+ 1447  ls -lha
+ 1448  touch file1
+ 1449  pwd
+ 1450  ls
+ 1451  touch file2
+ 1452  ls
+ 1453  cp ls -l
+ 1454  pwd
+ 1455  cd
+ 1456  ls
+ 1457  cd vickynew/
+ 1458  tree
+ 1459  man cp
+ 1460  ls
+ 1461  tree
+ 1462  cd ~
+ 1463  pwd
+ 1464  cd .
+ 1465  pwd
+ 1466  cd ../
+ 1467  pwd
+ 1468  cd 
+ 1469  pwd
+ 1470  cd -
+ 1471  pwd
+ 1472  info grub
+ 1473  cd
+ 1474  ls
+ 1475  cd vickynew/
+ 1476  mkdir hide.
+ 1477  ls
+ 1478  mkdir .hide
+ 1479  ls
+ 1480  cat hide./
+ 1481  rm hide./
+ 1482  ls
+ 1483  tree
+ 1484  rm file1 
+ 1485  ls
+ 1486  tree
+ 1487  mv file2 starting1/book1/model1/
+ 1488  ls -l
+ 1489  ls -lh
+ 1490  ls -lha
+ 1491  info -a
+ 1492  man -a
+ 1493  -l
+ 1494  ma ls
+ 1495  man ls
+ 1496  pwd
+ 1497  tree
+ 1498  ls -a
+ 1499  rmdir .
+ 1500  rmdir hide./
+ 1501  ls
+ 1502  ls -a
+ 1503  ls -ah
+ 1504  ls -ahl
+ 1505  clear
+ 1506  tree
+ 1507  ls -a
+ 1508  cd book1/
+ 1509  cd starting1/book1/
+ 1510  ls -a
+ 1511  clear
+ 1512  poweroff
+ 1513  sudo pm-powersave true 
+ 1514  sudo powertop
+ 1515  ls -l 
+ 1516  ls
+ 1517  cd 
+ 1518  ls
+ 1519  cd vickynew/
+ 1520  tree
+ 1521  ls -l
+ 1522  man cd
+ 1523  man ls
+ 1524  ls -l
+ 1525  ls -lh
+ 1526  ls -lha
+ 1527  ls -l
+ 1528  touch file1
+ 1529  ls -l
+ 1530  mkdir dir1
+ 1531  ls -l
+ 1532  ln -s link1 file1
+ 1533  ln -s file1 link1
+ 1534  ls -l
+ 1535  umask
+ 1536  sudo pm-powersave 
+ 1537  sudo pm-powersave true
+ 1538  sudo ifconfig enp3s0 down
+ 1539  ls -l
+ 1540  chmod g-w file1 
+ 1541  ls -l file1 
+ 1542  ugo+x file1 
+ 1543  ls -l file1 
+ 1544  chmod ugo+x file1 
+ 1545  ls -l
+ 1546  umask 
+ 1547  mkdir directory11
+ 1548  ls -l directory11
+ 1549  ls -l
+ 1550  umask 0003
+ 1551  umask
+ 1552  mkdir directory12
+ 1553  ls -l
+ 1554  umask 0005
+ 1555  mkdir directory13
+ 1556  ls -l
+ 1557  man umask
+ 1558  fg
+ 1559  touch
+ 1560  touch die
+ 1561  touch directory12
+ 1562  ls -l
+ 1563  touch file43
+ 1564  ls -l
+ 1565  umask 0000
+ 1566  touch file46
+ 1567  ls -l
+ 1568  umask 0777
+ 1569  touch file47
+ 1570  ls -l
+ 1571  mkdir dir3
+ 1572  ls -l
+ 1573  umask 0000
+ 1574  touch file48
+ 1575  ls -l
+ 1576  cd directory11
+ 1577  touch file55
+ 1578  cd ..
+ 1579  chmod ugo-x directory11
+ 1580  ls -l
+ 1581  cd directory11
+ 1582  ls -i
+ 1583  ls
+ 1584  cat file43 
+ 1585  cat > file43
+ 1586  cat file43 
+ 1587  vim file43
+ 1588  cat file43 
+ 1589  tree
+ 1590  cat starting1
+ 1591  vim starting1
+ 1592  vim starting1/book1
+ 1593  ls -i
+ 1594  ls
+ 1595  ls -l
+ 1596  ls -i
+ 1597  ls -il
+ 1598  pwd
+ 1599  ls -li
+ 1600  cd dir1
+ 1601  ls -li
+ 1602  cat > file3
+ 1603  cat file3
+ 1604  ls -li
+ 1605  ln file3 link11
+ 1606  ls -li
+ 1607  man ln
+ 1608  ln -s file3 link12
+ 1609  ls -l
+ 1610  ls -il
+ 1611  cat file3
+ 1612  cat link11
+ 1613  cat link12
+ 1614  cd 
+ 1615  pwd
+ 1616  cd .
+ 1617  pwd
+ 1618  cd ..
+ 1619  cd ~
+ 1620  pwd
+ 1621  ls -l
+ 1622  history
+ 1623  q
+ 1624  man ls
+ 1625  man ch 
+ 1626  man chmod
+ 1627  pwd
+ 1628  ls
+ 1629  cd vickynew
+ 1630  ls
+ 1631  ls -l
+ 1632  chmod ugo+rwx dir3
+ 1633  ls -l
+ 1634  chmod ugo+rwx file47
+ 1635  ls -l
+ 1636  umask
+ 1637  clear
+ 1638  ls
+ 1639  tree
+ 1640  mkdir ls
+ 1641  ls -l
+ 1642  clear
+ 1643  ls
+ 1644  tree
+ 1645  mkdir storeshop
+ 1646  ls -l
+ 1647  tree
+ 1648  mkdir starting1/openin value
+ 1649  tree
+ 1650  pwd
+ 1651  cd clear
+ 1652  clear
+ 1653  ls -l
+ 1654  cd starting1
+ 1655  ls -l
+ 1656  cd openin
+ 1657  pwd
+ 1658  history
+ 1659  man cat
+ 1660  clear
+ 1661  cd 
+ 1662  pwd
+ 1663  cd .
+ 1664  pwd
+ 1665  cd ..
+ 1666  pwd
+ 1667  clear
+ 1668  ls
+ 1669  cd vickynew/
+ 1670  pwd
+ 1671  ls 
+ 1672  ls
+ 1673  ls directory12
+ 1674  cd directory12
+ 1675  ls
+ 1676  cd ..
+ 1677  cd .
+ 1678  cd.
+ 1679  pwd
+ 1680  cd .
+ 1681  pwd
+ 1682  ls -
+ 1683  cd ~
+ 1684  pwd
+ 1685  cd 
+ 1686  cd .
+ 1687  cd ..
+ 1688  pwd
+ 1689  cd ..
+ 1690  pwd
+ 1691  cd ..
+ 1692  pwd
+ 1693  cd ..
+ 1694  pwd
+ 1695  cd -
+ 1696  pwd
+ 1697  cd -
+ 1698  pwd
+ 1699  cd 
+ 1700  pwd
+ 1701  cd ~
+ 1702  pwd
+ 1703  ls
+ 1704  ls -
+ 1705  ls .
+ 1706  ls ..
+ 1707  pwd
+ 1708  cd vickynew/
+ 1709  pwd
+ 1710  ls
+ 1711  ls -
+ 1712  ls -l
+ 1713  la -lh
+ 1714  man ls
+ 1715  inode
+ 1716  ls -inode
+ 1717  ls -i
+ 1718  man inode
+ 1719  directory13 inode
+ 1720  cd directory13
+ 1721  ls -inode
+ 1722  inode
+ 1723  man inode
+ 1724  umask
+ 1725  ls inode
+ 1726  ls -inode
+ 1727  ls --help
+ 1728  clear
+ 1729  pwd
+ 1730  ls -li 
+ 1731  ls -inode directory13
+ 1732  clear
+ 1733  pwd
+ 1734  ls -li 
+ 1735  cd ..
+ 1736  cd /
+ 1737  pwd
+ 1738  ls -li
+ 1739  ls
+ 1740  cd home/
+ 1741  ls
+ 1742  cd 
+ 1743  pwd
+ 1744  ls
+ 1745  cd vickynew/
+ 1746  ls -li
+ 1747  ls -l
+ 1748  ls -lia
+ 1749  ln -s file43 link89
+ 1750  ls
+ 1751  ls -li
+ 1752  ln file43 link99
+ 1753  ls -li
+ 1754  clear
+ 1755  tree
+ 1756  rmdir value
+ 1757  ls
+ 1758  ln
+ 1759  cd link1
+ 1760  tree
+ 1761  ln file48 ls
+ 1762  ls -l link990
+ 1763  umask
+ 1764  pwd
+ 1765  ls
+ 1766  ls vickynew/
+ 1767  tree
+ 1768  cd vickynew/
+ 1769  tree
+ 1770  ls -inode
+ 1771  ls 
+ 1772  ls -l
+ 1773  chmod u+x die 
+ 1774  ls -l
+ 1775  chmod g+x die
+ 1776  ls -l
+ 1777  chmod ugo-rwx die
+ 1778  cd die
+ 1779  cd dir1
+ 1780  cd ..
+ 1781  ls-l
+ 1782  ls -l
+ 1783  cd die 
+ 1784  chmod ugo+r die
+ 1785  cd die
+ 1786  chmod ugo+w die
+ 1787  ls -l
+ 1788  cd die
+ 1789  cat file46
+ 1790  touch joule 
+ 1791  ls -l
+ 1792  umask
+ 1793  umask die
+ 1794  umask storeshop
+ 1795  umask
+ 1796  umask 0003
+ 1797  umask
+ 1798  ls -il
+ 1799  cd link1
+ 1800  ln -s file1 link444
+ 1801  ls -li
+ 1802  ln file1 link 100
+ 1803  ln file1 link 99
+ 1804  ln file1 ls 
+ 1805  ls -li
+ 1806  chmod ugo+x directory11
+ 1807  mkdir starting1/linking file
+ 1808  ls -l
+ 1809  ls starting1/
+ 1810  cd cd starting1/
+ 1811  cd starting1/
+ 1812  ls 
+ 1813  cd linking/
+ 1814  pwd
+ 1815  tree
+ 1816  cd ..
+ 1817  tree
+ 1818  ls -li
+ 1819  touch file1
+ 1820  ls 
+ 1821  ln file1 linking
+ 1822  ls 
+ 1823  tree
+ 1824  ls
+ 1825  ls -li
+ 1826  cd linking/
+ 1827  ls
+ 1828  cd ..
+ 1829  ls
+ 1830  rmdir file1
+ 1831  man ln 
+ 1832  clear
+ 1833  pwd
+ 1834  tree
+ 1835  cd 
+ 1836  pwd
+ 1837  ls
+ 1838  cd vickynew/
+ 1839  tree
+ 1840  ls
+ 1841  cd vickynew/
+ 1842  tree
+ 1843  ls
+ 1844  cd dir3
+ 1845  ls
+ 1846  clear
+ 1847  cd ..
+ 1848  ls
+ 1849  man ln
+ 1850  ls
+ 1851  ln file46 hard1
+ 1852  ls
+ 1853  ls -l
+ 1854  ls -il
+ 1855  ln -s file43 soft1
+ 1856  ls -li
+ 1857  cat soft1
+ 1858  cat >> soft1
+ 1859  cat soft1
+ 1860  ln -s soft1 soft2_1
+ 1861  ls -il
+ 1862  rm file43
+ 1863  ls -li
+ 1864  cat soft1
+ 1865  rm soft1
+ 1866  cat hard1
+ 1867  cat >> file46
+ 1868  cat hard1
+ 1869  cat >> hard1
+ 1870  cat hard1
+ 1871  rm file46
+ 1872  ls -li
+ 1873  cat hard1
+ 1874  ls -li
+ 1875  rm soft2_1 
+ 1876  ls -li
+ 1877  man shown
+ 1878  man chown
+ 1879  man user
+ 1880  man usr
+ 1881  ls /bin
+ 1882  ls /usr
+ 1883  ls /usr/bin
+ 1884  cd /boot
+ 1885  ls
+ 1886  rm *5.0.0*
+ 1887  sudo rm *5.0.0*
+ 1888  ls -l
+ 1889  sudo rm *4.19.11*
+ 1890  ls -l
+ 1891  sudo rm *.old
+ 1892  ls -l
+ 1893  sudo update-grub2 
+ 1894  sudo pm-powersave true
+ 1895  sudo ifconfig en3ps0 down
+ 1896  sudo ifconfig enp3s0 down
+ 1897  sudo powertop
+ 1898  sudo pm-powersave true
+ 1899  sudo powertop
+ 1900  sudo ifconfig enp3s0 down
+ 1901  sudo powertop
+ 1902  q
+ 1903  sudo reboot
+ 1904  sudoreboot
+ 1905  sudo reboot
+ 1906  echo -e "hi"
+ 1907  echo  "hi"
+ 1908  echo -e "hi \n"
+ 1909  echo  "hi \n"
+ 1910  ls
+ 1911  sudo pm-powersave true
+ 1912  sudo powertop
+ 1913  sudo ifconfig enp3s0 down
+ 1914  sudo apt update
+ 1915  sudo apt install libc6:i386 libusb-0.1-4 libgconf-2-4 build-essential
+ 1916  cd 
+ 1917  ls
+ 1918  cd Documents/LDD/ex_new
+ 1919  vim driver1.c 
+ 1920  sudo apt-get install minicom
+ 1921  cd ../../
+ 1922  ls
+ 1923  vim miniterm.py
+ 1924  chmod u+x miniterm.py 
+ 1925  ./miniterm.py 
+ 1926  sudo apt-get install py
+ 1927  sudo apt-get install python-serial 
+ 1928  ./miniterm.py 
+ 1929  ./miniterm.py /dev/ttyUSB0 115200
+ 1930  sudo ./miniterm.py /dev/ttyUSB0 115200
+ 1931  ls
+ 1932  lsusb
+ 1933  ls
+ 1934  cd Documents/
+ 1935  ls
+ 1936  cd sample/
+ 1937  ls
+ 1938  mkdir temp
+ 1939  cd temp/
+ 1940  ls
+ 1941  mkdir vicky/{Document,Downloads,Pictures}
+ 1942  mkdir -p vicky/{Document,Downloads,Pictures}
+ 1943  tree
+ 1944  rm -rf vicky
+ 1945  tree
+ 1946  cd ..
+ 1947  rmdir temp
+ 1948  ls
+ 1949  ifconfig
+ 1950  cd ~/Downloads/driver4/
+ 1951  ls
+ 1952  uname -r
+ 1953  sudo insmod driver_write.ko 
+ 1954  sudo rmmod driver_write 
+ 1955  sudo insmod driver_write.ko 
+ 1956  ./test /dev/my_dev 
+ 1957  sudo ./test /dev/my_dev 
+ 1958  dmesg
+ 1959  vim driver_write.c
+ 1960  ls
+ 1961  vim test.c 
+ 1962  vim test1.c 
+ 1963  vim driver_write.c
+ 1964  reboot
+ 1965  ls
+ 1966  uname -r
+ 1967  vim Makefile 
+ 1968  make -C /usr/src/linux-headers-4.18.0-25-generic/ M=`pwd` modules
+ 1969  ls
+ 1970  gcc test.c -o test
+ 1971  gcc test1.c -o test1
+ 1972  sudo insmod driver_write.ko
+ 1973  dmesg
+ 1974  sudo mknod /dev/my_dev c 220 0
+ 1975  sudo ./test /dev/my_dev 
+ 1976  dmesg
+ 1977  sudo ./test1 /dev/my_dev 
+ 1978  dmesg
+ 1979  vim driver_write.c
+ 1980  dmesg
+ 1981  ls /dev/ttyUSB0 
+ 1982  ls /dev/ttyUSB0 -l
+ 1983  cd ../
+ 1984  ls
+ 1985  cd ../Documents/
+ 1986  ls
+ 1987  ./miniterm.py 
+ 1988  sudo ./miniterm.py 
+ 1989  sudo ./miniterm.py /dev/ttyUSB0 115200
+ 1990  sudo ./miniterm.py /dev/ttyUSB0 9600
+ 1991  dmesg
+ 1992  locate dnsleases
+ 1993  sudo find /var -name *leases*
+ 1994  locate dnsleases
+ 1995  ls /var/
+ 1996  dmesg
+ 1997  ifconfig
+ 1998  sudo find /var -name *leases*
+ 1999  vim /var/lib/misc/dnsmasq.leases
+ 2000  ssh debian@10.42.0.218
+ 2001  cat /proc/cpuinfo 
+ 2002  ls
+ 2003  cd ~/Documents/
+ 2004  ls
+ 2005  cd LDD
+ 2006  ls
+ 2007  vim ex1/
+ 2008  ls
+ 2009  cd ex_new_bk1/
+ 2010  ls
+ 2011  hostname
+ 2012  ifconfig
+ 2013  ls
+ 2014  pwd
+ 2015  who
+ 2016  sudo apt-get install openssh-server
+ 2017  ps -ef | grep sshd
+ 2018  history > history.txt

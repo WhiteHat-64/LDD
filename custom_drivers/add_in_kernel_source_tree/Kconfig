@@ -1,0 +1,6 @@
+config MPU6050
+tristate "MPU6050 driver"
+depends on ARM
+default m
+help
+

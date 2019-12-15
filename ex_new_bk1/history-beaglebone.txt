@@ -1,0 +1,446 @@
+    1  ls
+    2  dmesg
+    3  ls /
+    4  ls -l /
+    5  uname -r
+    6  cd /mnt
+    7  ls
+    8  cd ..
+    9  cd opt
+   10  ls
+   11  cd
+   12  ls
+   13  gcc -v
+   14  man mnt
+   15  man fdisk
+   16  gcc -v
+   17  vi 1.c
+   18  cc 1.c
+   19  vi 1.c
+   20  cc 1.c
+   21  ls
+   22  ./a.out
+   23  ls
+   24  cd /
+   25  ls
+   26  vi bbb-uEnv.txt
+   27  cd boot
+   28  ls
+   29  vi uEnv.txt
+   30  ls
+   31  cd /opt/scripts
+   32  ls
+   33  cd tools
+   34  ls
+   35  cd ..
+   36  ls
+   37  git pull
+   38  sudo reboot
+   39  git
+   40  cd /opt/scripts/tools/
+   41  git pull
+   42  sudo ./update_kernel.sh 
+   43  git pull
+   44  ping google.com
+   45  ping google
+   46  ping google.co.in
+   47  ping google
+   48  ping google.co.in
+   49  git pull
+   50  sudo ./update_kernel.sh 
+   51  uname -r
+   52  sudo reboot
+   53  uname -r
+   54  sudo apt-get install linux-headers-'uname -r'
+   55  uname -r
+   56  su
+   57  ls
+   58  vi bitop.c
+   59  ls
+   60  su
+   61  su root
+   62  sudo su
+   63  vi thread1.c
+   64  ls
+   65  vi system_exec.c
+   66  cc -save-temps system_exec.c
+   67  ls
+   68  vi pthread_mutex.c
+   69  vi pthread_attr_init.c
+   70  vi pthread_attr_init1.c
+   71  mv pthread_attr_init1.c mutex_attr_init.c
+   72  ls
+   73  vi mutex_attr_init.c
+   74  cc mutex_attr_init.c -lpthread
+   75  vi mutex_attr_init.c
+   76  cc mutex_attr_init.c -lpthread
+   77  vi mutex_attr_init.c
+   78  cc mutex_attr_init.c -lpthread
+   79  vi mutex_attr_init.c
+   80  cc mutex_attr_init.c -lpthread
+   81  ./a.out
+   82  vi mutex_attr_init.c
+   83  ls
+   84  ls -a
+   85  rm -f *.swp
+   86  ls -a
+   87  rm -f *.c.swp
+   88  ls
+   89  vi pthread_atfork.c
+   90  cc -lpthread pthread_atfork.c
+   91  vi pthread_atfork.c
+   92  cc -lpthread pthread_atfork.c
+   93  vi pthread_atfork.c
+   94  cc -lpthread pthread_atfork.c
+   95  vi pthread_atfork.c
+   96  cc -lpthread pthread_atfork.c
+   97  vi pthread_atfork.c
+   98  cc -lpthread pthread_atfork.c
+   99  vi pthread_atfork.c
+  100  cc -lpthread pthread_atfork.c
+  101  vi pthread_atfork.c
+  102  cc -lpthread pthread_atfork.c
+  103  vi pthread_atfork.c
+  104  cc -lpthread pthread_atfork.c
+  105  vi pthread_atfork.c
+  106  cc -lpthread pthread_atfork.c
+  107  vi pthread_atfork.c
+  108  cc -lpthread pthread_atfork.c
+  109  vi pthread_atfork.c
+  110  cc -lpthread pthread_atfork.c
+  111  cc  pthread_atfork.c -lpthread
+  112  ./a.out
+  113  vi pthread_atfork.c
+  114  cc  pthread_atfork.c -lpthread
+  115  ./a.out
+  116  vi pthread_atfork.c
+  117  cc  pthread_atfork.c -lpthread
+  118  ./a.out
+  119  vi pthread_atfork.c
+  120  cc  pthread_atfork.c -lpthread
+  121  ./a.out
+  122  vi pthread_atfork.c
+  123  cc  pthread_atfork.c -lpthread
+  124  ./a.out
+  125  vi pthread_atfork.c
+  126  ls /usr/include
+  127  vi /usr/include/vi pthread.h
+  128  vi /usr/include/pthread.h
+  129  vi /usr/include/sched.h
+  130  getconf 
+  131  man getconf
+  132  ls
+  133  vi 3.c
+  134  cc 3.c
+  135  ./a.out
+  136  vi 3.c
+  137  cc 3.c
+  138  vi 3.c
+  139  cc 3.c
+  140  vi 3.c
+  141  cc 3.c
+  142  vi 3.c
+  143  cc 3.c
+  144  vi 3.c
+  145  cc 3.c
+  146  ./a.out
+  147  vi 3.c
+  148  ./a.out
+  149  cc 3.c
+  150  ./a.out
+  151  vi 3.c
+  152  cc 3.c
+  153  vi 3.c
+  154  cc 3.c
+  155  vi 3.c
+  156  cc 3.c
+  157  ls /usr/include
+  158  ls /usr/include/asm-generic
+  159  ls /usr/include/asm-generic/signal.h
+  160  vi /usr/include/asm-generic/signal.h
+  161  ls
+  162  vi sysVsem.c
+  163  cc sysVsem.c
+  164  vi sysVsem.c
+  165  cc sysVsem.c
+  166  vi sysVsem.c
+  167  cc sysVsem.c
+  168  vi sysVsem.c
+  169  cc sysVsem.c
+  170  vi sysVsem.c
+  171  cc sysVsem.c
+  172  vi sysVsem.c
+  173  cc sysVsem.c
+  174  vi sysVsem.c
+  175  cc sysVsem.c
+  176  vi sysVsem.c
+  177  grep semun
+  178  ls /
+  179  ls /sys
+  180  ls /usr/include
+  181  ls /usr/include/sys
+  182  ls
+  183  ls /
+  184  ls /media
+  185  ls /mnt
+  186  mnt fdisk
+  187  mount fdisk
+  188  ls /opt
+  189  ls /media
+  190  ls /home
+  191  ls /home/debian
+  192  ls /mnt
+  193  ls /dev
+  194  ls /dev/disk
+  195  ls /dev/disk/by-path
+  196  ls /dev/disk/
+  197  ls /dev/
+  198  sudo mkdir /media/sdcard
+  199  ls /dev
+  200  ls /dev/dri
+  201  ls /dev/disk
+  202  ls /dev/disk/by-path
+  203  sudo mount /dev/disk /media/sdcard
+  204  fdisk -l
+  205  su
+  206  sudo su
+  207  vi msg_q.c
+  208  cc -o sender msg_q.c
+  209  vi msg_q.c
+  210  cc -o sender msg_q.c
+  211  vi msg_q.c
+  212  cc -o sender msg_q.c
+  213  vi msg_q.c
+  214  cc -o sender msg_q.c
+  215  ls
+  216  ./sender
+  217  ipc -q
+  218  ipc
+  219  sudo apt-get install ipc
+  220  vi msg_q1.c
+  221  cc -o receiver msg_q1.c
+  222  vi msg_q1.c
+  223  cc -o receiver msg_q1.c
+  224  ls
+  225  ./receiver
+  226  ./sender
+  227  ./receiver
+  228  ./sender
+  229  ./receiver
+  230  vi msg_q1.c
+  231  cc -o receiver msg_q1.c
+  232  ./sender
+  233  ./receiver
+  234  ls\
+  235  ls
+  236  vi sysVsem.c
+  237  cc sysVsem.c
+  238  ./a.out
+  239  vi sysVsem.c
+  240  cc sysVsem.c
+  241  ./a.out
+  242  vi sysVsem.c
+  243  cc sysVsem.c
+  244  ./a.out
+  245  vi sysVsem.c
+  246  cc sysVsem.c
+  247  ./a.out
+  248  vi sysVsem.c
+  249  cc sysVsem.c
+  250  ./a.out
+  251  vi sysVsem.c
+  252  cc sysVsem.c
+  253  ./a.out
+  254  vi sysVsem.c
+  255  ls
+  256  vi sysVipc.c
+  257  vi sysVsem.c
+  258  cc sysVsem.c
+  259  vi sysVsem.c
+  260  ls -a
+  261  rm -f .sysVsem.c.swp
+  262  cc sysVsem.c
+  263  ./a.out
+  264  vi sysVsem.c
+  265  cc sysVsem.c
+  266  ./a.out
+  267  vi sysVsem.c
+  268  cc sysVsem.c
+  269  ./a.out
+  270  vi sysVsem.c
+  271  cc sysVsem.c
+  272  ./a.out
+  273  vi sysVsem.c
+  274  ls
+  275  vi fork1.c
+  276  vi fork.c
+  277  vi fork1.c
+  278  vi sysVsem.c
+  279  cc sysVsem.c
+  280  ./a.out
+  281  vi sysVsem.c
+  282  cc sysVsem.c
+  283  ./a.out
+  284  vi sysVsem.c
+  285  cc sysVsem.c
+  286  ./a.out
+  287  vi sysVsem.c
+  288  cc sysVsem.c
+  289  ./a.out
+  290  cc -g sysVsem.c
+  291  gdb a.out
+  292  vi sysVsem.c
+  293  cat < /tmp/my_fifo
+  294  echo "hello world" > /tmp/my_fifo
+  295  ls
+  296  vi sysVsem.c
+  297  cc sysVsem.c
+  298  ./a.out
+  299  vi sysVsem.c
+  300  vi syssem.c
+  301  cc syssem.c
+  302  ./a.out
+  303  vi syssem.c
+  304  cc syssem.c
+  305  ./a.out
+  306  vi syssem.c
+  307  cc syssem.c
+  308  ./a.out
+  309  vi syssem.c
+  310  cc syssem.c
+  311  ./a.out
+  312  vi syssem.c
+  313  sudo su
+  314  vi sysVsem.c
+  315  vi sample.c
+  316  vi temp.c
+  317  cc temp.c
+  318  vi temp.c
+  319  cc temp.c
+  320  gcc -v
+  321  vi temp.c
+  322  cc temp.c
+  323  vi temp.c
+  324  cc temp.c
+  325  vi temp.c
+  326  cc temp.c
+  327  vi temp.c
+  328  vi primenumber.c
+  329  cc primenumber.c
+  330  ./a.out
+  331  vi primenumber.c
+  332  cc primenumber.c
+  333  ./a.out
+  334  vi fabinocci.c
+  335  cc fabinocci.c
+  336  ./a.out
+  337  vi fabinocci.c
+  338  cc fabinocci.c
+  339  ./a.out
+  340  ls
+  341  vi leapyear.c
+  342  cc leapyear.c
+  343  ./a.out
+  344  vi hello.c
+  345  cc hello.c
+  346  ./a.out
+  347  vi arr_size.c
+  348  cc arr_size.c
+  349  ./a.out
+  350  vi arr_size.c
+  351  cc arr_size.c
+  352  ./a.out
+  353  vi const.c
+  354  cc const.c
+  355  ./a.out
+  356  vi const.c
+  357  cc const.c
+  358  vi const.c
+  359  cc const.c
+  360  vi const.c
+  361  cc const.c
+  362  vi const.c
+  363  cc const.c
+  364  ./a.out
+  365  vi const.c
+  366  cc const.c
+  367  ./a.out
+  368  vi const.c
+  369  cc const.c
+  370  vi const.c
+  371  cc const.c
+  372  vi const.c
+  373  cc const.c
+  374  vi const.c
+  375  cc const.c
+  376  vi const.c
+  377  cc const.c
+  378  vi const.c
+  379  cc const.c
+  380  vi const.c
+  381  ls
+  382  exit
+  383  ls
+  384  vi memory_mapp.c
+  385  ls
+  386  vi memory_map.c
+  387  vi mmap.c
+  388  vi mmap.txt
+  389  vi mmap.c
+  390  cc mmap.c
+  391  vi mmap.c
+  392  cc mmap.c
+  393  vi mmap.c
+  394  cc mmap.c
+  395  vi mmap.c
+  396  cc mmap.c
+  397  ./a.out
+  398  vi mmap.c
+  399  cat /proc/cpuinfo 
+  400  ls /
+  401  ls
+  402  poweroff
+  403  sudo poweroff
+  404  sudo apt-get install vncserver
+  405  sudo apt-get install vnc
+  406  vncserver
+  407  sudo apt-get install vnc4server 
+  408  sudo apt-get update
+  409  sudo apt-get install vnc4server 
+  410  vncserver 
+  411  tigervncserver 
+  412  ifconfig
+  413  ls
+  414  mkdir from_laptop
+  415  cd from_laptop/
+  416  scp -r goldeneagle@10.42.0.1:/home/goldeneagle/Documents/LDD/ex_new_bk1 .
+  417  ps -ef | grep sshd
+  418  scp -r goldeneagle@10.42.0.1:/home/goldeneagle/Documents/LDD/ex_new_bk1 .
+  419  ls
+  420  cd ex_new_bk1/
+  421  ls
+  422  sudo insmod driver1.ko 
+  423  modinfo ./driver1.ko 
+  424  uname -r
+  425  ls /usr/src/
+  426  sudo apt-get install linux-headers-4.14.108-ti-r104
+  427  ls /usr/src/
+  428  ls /usr/src/linux-headers-4.14.108-ti-r104/
+  429  ls /usr/src/linux-headers-4.14.108-ti-r104/.config
+  430  make -C /usr/src/linux-headers-4.14.108-ti-r104/ M=`pwd` modules
+  431  vim driver1.c 
+  432  make -C /usr/src/linux-headers-4.14.108-ti-r104/ M=`pwd` modules
+  433  ls
+  434  sudo insmod driver1.ko 
+  435  dmesg
+  436  ls
+  437  sudo mknod /dev/my_dev c 220 0
+  438  ls -l /dev/my_dev 
+  439  cd test/
+  440  ls
+  441  ./test 
+  442  file test 
+  443  gcc test.c -o test
+  444  file test 
+  445  sudo ./test /dev/my_dev 
+  446  history > history.txt
